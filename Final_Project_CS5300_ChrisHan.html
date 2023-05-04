@@ -14578,7 +14578,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
@@ -14608,7 +14608,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Phase-1:-Data-analysis-&amp;-preparation"><strong>Phase 1: Data analysis &amp; preparation</strong><a class="anchor-link" href="#Phase-1:-Data-analysis-&amp;-preparation">&#182;</a></h2><p>I selected a diabetes datasets, as it was always a disease of interest studied by my father before he retired. And quite frankly, I find most datasets are about finances, which is quite boring to me.</p>
+<h2 id="Phase-1:-Data-analysis-&amp;-preparation"><strong>Phase 1: Data analysis &amp; preparation</strong><a class="anchor-link" href="#Phase-1:-Data-analysis-&amp;-preparation">&#182;</a></h2><p>I selected a diabetes dataset, as it was always a disease of interest studied by my father before he retired. And frankly, I find most datasets are about finance, or about other trivialities not worth the study (such as MBTI personality tests), which are quite boring to me.</p>
 <p>The dataset is taken from here:</p>
 <p><a href="https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset?resource=download">https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset?resource=download</a></p>
 
@@ -14620,7 +14620,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"diabetes_binary_5050split_health_indicators_BRFSS2015.csv"</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">","</span><span class="p">)</span>
@@ -14642,7 +14642,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[41]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -15051,7 +15051,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>The data is shuffled then saved in shuffled order as a csv. Some of the code is commented out to prevent reshuffling. I create the new csv in order to retain a consistent shuffling order throughout the notebook.</p>
+<p>The data is shuffled and then saved to a new csv file. This reshuffling code is then commented out to prevent accidental reshuffling. If any part of the project needs to be re-written or run again, we can reload this file for a reproducible data set.</p>
 
 </div>
 </div>
@@ -15061,7 +15061,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="c1">#df = shuffle(df)</span>
@@ -15078,7 +15078,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"diabetes_my_shuffled.csv"</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">","</span><span class="p">)</span>
@@ -15102,7 +15102,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[39]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -15509,7 +15509,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="c1">#dataset = np.loadtxt('diabetes_binary_5050split_health_indicators_BRFSS2015.csv', delimiter=",", skiprows=1)</span>
@@ -15527,7 +15527,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">dataset</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">loadtxt</span><span class="p">(</span><span class="s1">'diabetes_my_shuffled.csv'</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s2">","</span><span class="p">,</span> <span class="n">skiprows</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
@@ -15543,7 +15543,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">dataset</span>
@@ -15564,7 +15564,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[20]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -15592,7 +15592,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>I do some pre-processing and data analysis. We see here there's a roughly even split of diabetes and non-diabetes cases.</p>
+<p>I do some pre-processing and data analysis. We see here there's a roughly even split of diabetes and non-diabetes cases. As examples of both targets are well-represented, we shouldn't need any special measures to account for any skewing that may occur.</p>
 
 </div>
 </div>
@@ -15602,7 +15602,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[54]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">'Proportion of Trues: '</span><span class="p">,</span> <span class="nb">sum</span><span class="p">(</span><span class="n">Y_Overfit</span><span class="p">)</span><span class="o">/</span><span class="mi">70692</span><span class="p">)</span>
@@ -15666,7 +15666,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">21</span><span class="p">):</span>
@@ -15685,7 +15685,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[43]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">header</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
@@ -15743,7 +15743,8 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Initial-Overfit-Trial"><strong>Initial Overfit Trial</strong><a class="anchor-link" href="#Initial-Overfit-Trial">&#182;</a></h1><p>For now, we do not split the data set. I attempt to force a model to overfit to get a sense of what architecture I might need.</p>
+<h1 id="Initial-Overfit-Trial"><strong>Initial Overfit Trial</strong><a class="anchor-link" href="#Initial-Overfit-Trial">&#182;</a></h1><p>For now, we do not split the data set. I attempt to force a model to overfit to get a sense of what architecture I might need. However, this proves to be quite difficult, as I cannot achieve much greater than a ~75% training accuracy.</p>
+<p>Below, I create a training set entirely comprised of all the samples inside the set.</p>
 
 </div>
 </div>
@@ -15753,7 +15754,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">X_Overfit</span> <span class="o">=</span> <span class="n">dataset</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">:]</span>
@@ -15792,6 +15793,18 @@ class="
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>The function below is intended to automate the process of building neural net models. It then uses the constructed model to make predictions on the data set used to train it. For now, we do not concern ourselves with validation.</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -15828,6 +15841,18 @@ class="
 </div>
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>This is testing a logistic regression model.</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -15902,6 +15927,18 @@ Final accuracy was found to be:  0.7410137075441003
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>The summary below is simply to verify that the model produced by my function has the expected architecture. This formate will be used consistently throughout this phase of the project.</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -15951,6 +15988,18 @@ _________________________________________________________________
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>This is testing 2-1 architecure.</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16076,6 +16125,18 @@ _________________________________________________________________
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>4-2-1 Neural Network Model</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16203,6 +16264,18 @@ _________________________________________________________________
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>8-4-2-1 Neural Network Model</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16332,6 +16405,18 @@ _________________________________________________________________
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>16-8-4-2-1 Neural Network Model</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16463,6 +16548,18 @@ _________________________________________________________________
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>128-64-32-16-8-4-2-1 Neural Network Model</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16600,6 +16697,18 @@ _________________________________________________________________
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>1024-1 Neural Network Model</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16725,6 +16834,18 @@ _________________________________________________________________
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>512-256-128-64-32-16-8-4-2-1 Neural Network Model</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16866,6 +16987,18 @@ _________________________________________________________________
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>4-1 Neural Network Model</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16998,7 +17131,7 @@ _________________________________________________________________
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>However, I am not too successful as most models result in a ~75% accuracy. I decide to move to the next phase and just which model to use by plotting accuracy curves with more rigorous testing.</p>
+<p>I am not successful with forcing an overfit, as most models result in a ~75% accuracy. I decide to move to the next phase and just determine which model to use by plotting accuracy curves with more rigorous testing.</p>
 
 </div>
 </div>
@@ -17011,6 +17144,7 @@ _________________________________________________________________
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Phase-3:-Model-selection-&amp;-evaluation">Phase 3: Model selection &amp; evaluation<a class="anchor-link" href="#Phase-3:-Model-selection-&amp;-evaluation">&#182;</a></h2><p>Once again, I decide to automate the process of more rigorous model-testing with a couple different functions and create a 20-80 split between the testing and validation data.</p>
+<p>The function below generates a model and returns both the training and accuracy scores. The history is returned and fed into a plotting function for visualizing the fit.</p>
 
 </div>
 </div>
@@ -17020,7 +17154,7 @@ _________________________________________________________________
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">build_model</span><span class="p">(</span><span class="n">neuron_arr</span><span class="p">,</span> <span class="n">XTRAIN</span><span class="p">,</span> <span class="n">YTRAIN</span><span class="p">,</span> <span class="n">XVALID</span><span class="p">,</span> <span class="n">YVALID</span><span class="p">,</span> <span class="n">num_epochs</span><span class="p">,</span> <span class="n">num_batch</span><span class="p">,</span> <span class="n">is_verbose</span><span class="p">):</span>
@@ -17066,7 +17200,7 @@ _________________________________________________________________
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[44]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">twenty_percent</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">dataset</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">])</span> <span class="o">*</span> <span class="mf">0.2</span><span class="p">)</span>
@@ -17119,7 +17253,7 @@ _________________________________________________________________
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>We check the distribution of the true/false classifications on both the training and validation sets to see that shuffling didn't overrepresent either during the data shuffling.</p>
+<p>We check the distribution of the true/false classifications on both the training and validation sets to see that shuffling didn't over/under-represent either during the data shuffling.</p>
 
 </div>
 </div>
@@ -17129,7 +17263,7 @@ _________________________________________________________________
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[56]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">YTRAIN</span><span class="p">)</span>
@@ -17849,6 +17983,18 @@ _________________________________________________________________
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Below is a section of code where I include the output as an additional input feature. This is to determine whether I am on the right track, by whether the validation accuracy reaches 100%.</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -17958,94 +18104,18 @@ class="
 
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-python"><pre><span></span><span class="c1">#import plotly.express as px</span>
-<span class="c1">#px.scatter_3d(df, x = 'BMI', y= 'AnyHealthcare', z = 'Diabetes_binary', opacity = 0.5)</span>
-</pre></div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>I construct a 1-1 Neural Network model below so that I can simulate its results with a custom function.</p>
 
-     </div>
 </div>
 </div>
 </div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-python"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">dataset</span><span class="p">[:,</span> <span class="mi">4</span><span class="p">],</span><span class="n">dataset</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">])</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">'entry a'</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">'entry b'</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-
-<span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">dataset</span><span class="p">[:,</span> <span class="mi">14</span><span class="p">],</span><span class="n">dataset</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">])</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">'entry a'</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">'entry b'</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="data:image/png;base64,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0yc7O1thYWHauHGj3/u64H5s80Lkdrt133336eqrr1anTp0kSSUlJYqKilKLFi28+iYlJamkpCQEVV6YXn/9dRUWFmrz5s01HmOOQu/777/X/PnzlZubq4ceekibN2/Wvffeq6ioKOXk5HjmISkpyWscc9R4Jk6cKIfDocsuu0zh4eFyuVx64oknNHToUElijpoYf+ajpKREiYmJXo9HRESoVatWAc0ZAecCMGbMGH355ZfasGFDqEvBafbs2aPx48drzZo1iomJCXU58MHtdqtHjx6aPn26JKlbt2768ssvtWDBAuXk5IS4OkjSG2+8oVdeeUWvvvqqfvnLX6qoqEj33Xef2rRpwxxd4PiIynBjx47Vu+++qw8//FDt2rXztCcnJ8vpdOrw4cNe/UtLS5WcnNzIVV6YtmzZorKyMl155ZWKiIhQRESE1q1bp2effVYRERFKSkpijkIsJSVFGRkZXm2XX365du/eLUmeeTjzm23MUeN54IEHNHHiRP3+97/XFVdcoWHDhmnChAnKy8uTxBw1Nf7MR3JyssrKyrwer66u1qFDhwKaMwKOoSzL0tixY/X222/rgw8+UHp6utfj3bt3V2RkpPLz8z1t27dv1+7du5WVldXY5V6Q+vbtqy+++EJFRUWeW48ePTR06FDPfzNHoXX11VfXWF7hm2++UYcOHSRJ6enpSk5O9pojh8OhjRs3MkeN5NixYwoL8z6UhYeHy+12S2KOmhp/5iMrK0uHDx/Wli1bPH0++OADud1uZWZm+r+zel8ijSZp9OjRlt1ut9auXWsVFxd7bseOHfP0ufvuu6327dtbH3zwgfXpp59aWVlZVlZWVgirxunforIs5ijUNm3aZEVERFhPPPGE9e2331qvvPKKFRcXZ7388suePk8++aTVokUL6//+7/+sf/3rX9Zvf/tbKz093aqsrAxh5ReOnJwcq23btta7775r7dy503rrrbes1q1bWw8++KCnD3PUuCoqKqzPPvvM+uyzzyxJ1uzZs63PPvvM+uGHHyzL8m8++vfvb3Xr1s3auHGjtWHDBqtjx47WrbfeGlAdBBxDSfJ5W7x4sadPZWWldc8991gtW7a04uLirJtuuskqLi4OXdGoEXCYo9BbsWKF1alTJys6Otq67LLLrBdeeMHrcbfbbU2ePNlKSkqyoqOjrb59+1rbt28PUbUXHofDYY0fP95q3769FRMTY/3sZz+zHn74YauqqsrThzlqXB9++KHP409OTo5lWf7Nx8GDB61bb73Vio+PtxISEqyRI0daFRUVAdVhs6zTlnsEAAAwANfgAAAA4xBwAACAcQg4AADAOAQcAABgHAIOAAAwDgEHAAAYh4ADAACMQ8ABAADGIeAAAADjEHAAnHceffRRde3aNdRlAGjCCDgAjHXixIlQlwAgRAg4ABqV2+1WXl6e0tPTFRsbqy5duujNN9/0PL527VrZbDbl5+erR48eiouL01VXXaXt27dLkpYsWaLHHntMn3/+uWw2m2w2m5YsWSJJstlsmj9/vm644QY1a9ZMjz/+uC655BL9+c9/9qqhqKhINptNO3bs8Fnj5s2bdf3116t169ay2+3q06ePCgsLg/OCAAgKAg6ARpWXl6elS5dqwYIF+uqrrzRhwgTddtttWrdunVe/hx9+WLNmzdKnn36qiIgIjRo1SpI0ZMgQ/fGPf9Qvf/lLFRcXq7i4WEOGDPGMe/TRR3XTTTfpiy++0O23365Ro0Zp8eLFXttevHixevfurUsuucRnjRUVFcrJydGGDRv0ySefqGPHjho4cKAqKioa+NUAEDQN8+PoAFC348ePW3FxcdbHH3/s1X777bdbt956q2VZlvXhhx9akqz333/f8/jKlSstSVZlZaVlWZY1depUq0uXLjW2L8m67777vNr27t1rhYeHWxs3brQsy7KcTqfVunVra8mSJX7X7XK5rObNm1srVqzwewyA0OIMDoBGs2PHDh07dkzXX3+94uPjPbelS5fqu+++8+rbuXNnz3+npKRIksrKyurcR48ePbzut2nTRoMGDdKiRYskSStWrFBVVZV+97vf1bqN0tJS3XnnnerYsaPsdrsSEhJ05MgR7d692+/nCiC0IkJdAIALx5EjRyRJK1euVNu2bb0ei46O9rofGRnp+W+bzSbp5PU7dWnWrFmNtjvuuEPDhg3T008/rcWLF2vIkCGKi4urdRs5OTk6ePCgnnnmGXXo0EHR0dHKysqS0+msc/8AmgYCDoBGk5GRoejoaO3evVt9+vQ55+1ERUXJ5XL53X/gwIFq1qyZ5s+fr9WrV2v9+vVn7f/Pf/5Tzz//vAYOHChJ2rNnjw4cOHDO9QJofAQcAI2mefPmuv/++zVhwgS53W5dc801Ki8v1z//+U8lJCQoJyfHr+2kpaVp586dKioqUrt27dS8efMaZ4BOFx4erhEjRmjSpEnq2LGjsrKyzrr9jh076qWXXlKPHj3kcDj0wAMPKDY2NqDnCiC0uAYHQKOaNm2aJk+erLy8PF1++eXq37+/Vq5cqfT0dL+3ccstt6h///667rrrdPHFF+u1116rc8ztt98up9OpkSNH1tn3xRdf1I8//qgrr7xSw4YN07333qvExES/6wMQejbLsqxQFwEAwfbRRx+pb9++2rNnj5KSkkJdDoAgI+AAMFpVVZX279+vnJwcJScn65VXXgl1SQAaAR9RATDaa6+9pg4dOujw4cOaOXNmqMsB0Eg4gwMAAIzDGRwAAGAcAg4AADAOAQcAABiHgAMAAIxDwAEAAMYh4AAAAOMQcAAAgHEIOAAAwDj/H4wQT7BrMLxVAAAAAElFTkSuQmCC
-"
-class="
-"
->
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="data:image/png;base64,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Hp966inr29/+thUfH29de+211ne+8x3r97//vT3Fh6ClvUkK6svo0aMD+73g1VdftW644QYrLi7Ouummm6ytW7d2buEhas/+5s6da33rW9+y4uLirOTkZGvcuHFWZWVl5xcfgmnTpll9+/a14uLirOuuu84aO3Zs4EXfspzduwvC3aOT+teai1/8Tejj111uf07rYW5urpWammrFxcVZvXv3tnJzc63Dhw8Hfh8t/XNZlmVF9twQAABA5+GaGwAAYBTCDQAAMArhBgAAGIVwAwAAjEK4AQAARiHcAAAAoxBuAACAUQg3AADAKIQbAABgFMINAMdZtGiRMjIy7C4DQJQi3AAw1hdffGF3CQBsQLgB0Kn8fr+Ki4vVr18/devWTenp6dq8eXPg92VlZXK5XCotLdWIESPUvXt3jRo1SocOHZIkrV+/Xo8//rj+9Kc/yeVyyeVyaf369ZIkl8ul1atX695779VVV12lJ554Qv3799fSpUuDaqiqqpLL5dLhw4dbrPG9997TXXfdpcTERHk8Ho0ePVqVlZWR+QcB0OEINwA6VXFxsTZs2KA1a9bo/fff17x58/SjH/1IO3bsCJr3s5/9TMuWLdPevXvVpUsXTZs2TZKUm5urhx9+WDfddJNqampUU1Oj3NzcwLpFixbpb//2b7V//35Nnz5d06ZN07p164Iee926dbrzzjvVv3//Fms8e/as8vLytGvXLv3xj3/UgAEDNG7cOJ09e7aD/zUARETEv3ccAP6/zz//3Orevbv1zjvvBI1Pnz7dmjRpkmVZlvX2229bkqy33nor8PutW7dakqzPPvvMsizLKioqstLT0y95fEnW3Llzg8ZOnDhhxcbGWu+++65lWZbV1NRkJSYmWuvXrw+57ubmZqtnz57W7373u5DXALAPZ24AdJrDhw/r/Pnzuuuuu9SjR4/AsWHDBh05ciRo7tChQwP/nZqaKkk6derUZZ9jxIgRQT/36tVL48eP10svvSRJ+t3vfqfGxkb9/d//fauPUVdXp4ceekgDBgyQx+NRQkKCzp07p+PHj4e8VwD26WJ3AQC+Oc6dOydJ2rp1q3r37h30O7fbHfRz165dA//tcrkkfXW9zuVcddVVl4w9+OCDmjx5sp555hmtW7dOubm56t69e6uPkZeXp08++UTPPvus+vbtK7fbraysLDU1NV32+QHYj3ADoNMMHjxYbrdbx48f1+jRo9v9OHFxcWpubg55/rhx43TVVVdp9erVKikp0c6dO9ucv3v3bj333HMaN26cJKm6ulpnzpxpd70AOhfhBkCn6dmzp+bPn6958+bJ7/fr9ttvV319vXbv3q2EhATl5eWF9DhpaWk6duyYqqqq1KdPH/Xs2fOSMz9fFxsbqwceeECFhYUaMGCAsrKy2nz8AQMG6OWXX9aIESPk8/n005/+VN26dQtrrwDswzU3ADrV4sWLtWDBAhUXF+vGG2/U3Xffra1bt6pfv34hP8Z9992nu+++W2PGjNF1112n3/zmN5ddM336dDU1NWnq1KmXnfviiy/qL3/5i2655RZNnjxZ//Iv/6KkpKSQ6wNgL5dlWZbdRQBApP3hD3/Q2LFjVV1dreTkZLvLARBBhBsARmtsbNTp06eVl5enlJQU/frXv7a7JAARxttSAIz2m9/8Rn379tWnn36qp59+2u5yAHQCztwAAACjcOYGAAAYhXADAACMQrgBAABGIdwAAACjEG4AAIBRCDcAAMAohBsAAGAUwg0AADDK/wNNdEB4fTpCaAAAAABJRU5ErkJggg==
-"
-class="
-"
->
-</div>
-
-</div>
-
-</div>
-
-</div>
-
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -18112,6 +18182,18 @@ class="
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>The custom function below is part of the additional requirements for graduate students. It extracts the necessary weights and bias from the model constructed above and uses them to calculate the predictions.</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -18166,7 +18248,7 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Generating predictions takes a surprising amount of memory, so the predictions are tested across the first 1000 samples instaed.</p>
+<p>Generating predictions takes a surprising amount of memory, so the predictions are tested across the first 1000 samples in the validation set instead of the entire set.</p>
 
 </div>
 </div>
@@ -18218,7 +18300,7 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>I see from the graph below that the predictions generated by the model and my custom function.</p>
+<p>I see from the graph below that the predictions generated by the model and my custom function. As can be seen, they correspond nearly perfectly.</p>
 
 </div>
 </div>
@@ -18280,7 +18362,7 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>A bit of simple arithmetic confirms that the custom function is making correct predictions, though there are slight differences in the floating decimals.</p>
+<p>A bit of simple arithmetic confirms that the custom function is replicating the same predictions, though there are slight differences in the floating decimals.</p>
 
 </div>
 </div>
@@ -18344,7 +18426,8 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>First, I generate a series of 1-1 neural network models for each feature by autoating it.</p>
+<p>First, I generate a series of 1-1 neural network models for each feature by automating it. Each model only takes in a single feature from the data set. These models are stored in an array of models.</p>
+<p>This is to get a rough idea of the relevance of each feature.</p>
 
 </div>
 </div>
@@ -18559,6 +18642,18 @@ VALIDATION SET ACCURACY:  0.5004862695170902
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>The following code simply reproduces the accuracy scores from the models stored in the array from the previuos step. These scores are also stored in an array for easy retrieval in later steps.</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -18648,6 +18743,18 @@ VALIDATION SET ACCURACY:  0.5004862695170902
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Below, I have the accuracy values from the array. This is also here so I can also later transcribe the values if need be without having to re-run any code.</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -18726,7 +18833,7 @@ VALIDATION SET ACCURACY:  0.5004862695170902
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">21</span><span class="p">)</span>
@@ -18783,7 +18890,8 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>However, I need to rescale the bar plot for the report.</p>
+<p>However, I need to re-scale the bar plot for the report, which I have done before.</p>
+<p>As can be seen, I have copy-pasted the results from earlier and manually generated a new list, as I did not realize until later that I would need to re-scale the plot.</p>
 
 </div>
 </div>
@@ -18793,7 +18901,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[35]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">ValidAcc</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.6882039856417873</span><span class="p">,</span>
@@ -18945,6 +19053,18 @@ class="
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Below, I extract the header values, so that I have an overview of what features are in my set.</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -19026,7 +19146,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[60]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="k">def</span> <span class="nf">build_modified</span><span class="p">(</span><span class="n">neuron_arr</span><span class="p">,</span> <span class="n">XTRAIN</span><span class="p">,</span> <span class="n">YTRAIN</span><span class="p">,</span> <span class="n">XVALID</span><span class="p">,</span> <span class="n">YVALID</span><span class="p">,</span> <span class="n">num_epochs</span><span class="p">,</span> <span class="n">num_batch</span><span class="p">,</span> <span class="n">is_verbose</span><span class="p">):</span>
@@ -19072,7 +19192,7 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>This default model gives a rough estimation of the the baseline validation accuracy for model using all the features and a large batch size.</p>
+<p>This default model gives a rough estimation of the the baseline validation accuracy for model using all the features and the larger batch size.</p>
 
 </div>
 </div>
@@ -20053,7 +20173,7 @@ index  8 --&gt; Fruits
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Next, I construct more thorough models using the smaller batch sizes and progressively remove more features until we hit an model that produces a similar validation accuracy ouir baseline expectation.</p>
+<p>Next, I construct more thorough models using the smaller batch sizes and progressively remove more features until we hit an model that produces a similar validation accuracy our baseline expectation.</p>
 
 </div>
 </div>
@@ -20501,7 +20621,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[62]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">finalAcc</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.7488196912630629</span><span class="p">,</span> <span class="mf">0.7485190882888618</span><span class="p">,</span> <span class="mf">0.7481300726751896</span><span class="p">,</span> <span class="mf">0.7470514384736442</span><span class="p">,</span> <span class="mf">0.7484660407051792</span><span class="p">,</span> <span class="mf">0.744593567096352</span><span class="p">,</span> <span class="mf">0.744399059289516</span><span class="p">]</span>
@@ -20530,7 +20650,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[73]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span>
@@ -20579,6 +20699,22 @@ class="
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>The model number corresponds also corresponds to the number of features removed. The selected features are dropped in the same order that they were tested above.</p>
+<p>We can see that we can remove four features while retaining a good accuracy. The dropped features correspond to mental health, income, vegetable consumption and physical health.</p>
+<p>In conclusion, I believe that this data set is not good for making precise predictions about diabetes. Most of these factors might reasonably be correlated to diabetes, but is not directly causative. So while a high BMI might be weakly associated with diabetes, a good majority of people with high BMI do not have diabetes.</p>
+<p>By that token, something a blood sugar testm properly administrated by a professional, would be more directly indicative. As such, my take away lesson is that just because datasets are widely available does not mean that the data is of good quality. Much of what we compulsively hoard online is not good for anything.</p>
+<p>Data scientists can only do so much if the methodology for acquiring data is flawed or if those gathering it have a poor understanding of the domain.</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -20588,7 +20724,7 @@ class="
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="o">%%</span><span class="n">shell</span>
-<span class="n">jupyter</span> <span class="n">nbconvert</span> <span class="o">--</span><span class="n">to</span> <span class="n">html</span> <span class="o">/</span><span class="n">content</span><span class="o">/</span><span class="n">Final_Project_CS5300</span><span class="o">.</span><span class="n">ipynb</span>
+<span class="n">jupyter</span> <span class="n">nbconvert</span> <span class="o">--</span><span class="n">to</span> <span class="n">html</span> <span class="o">/</span><span class="n">content</span><span class="o">/</span><span class="n">Final_Project_CS5300_ChrisHan</span><span class="o">.</span><span class="n">ipynb</span>
 </pre></div>
 
      </div>
@@ -20610,8 +20746,8 @@ class="
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[NbConvertApp] Converting notebook /content/Final_Project_CS5300.ipynb to html
-[NbConvertApp] Writing 1450864 bytes to /content/Final_Project_CS5300.html
+<pre>[NbConvertApp] Converting notebook /content/Final_Project_CS5300_ChrisHan.ipynb to html
+[NbConvertApp] Writing 1679067 bytes to /content/Final_Project_CS5300_ChrisHan.html
 </pre>
 </div>
 </div>
